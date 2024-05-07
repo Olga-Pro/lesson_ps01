@@ -43,8 +43,11 @@ section {
 
 .image {
     display: flex;
+    flex-direction: column; /* Указывает, что дочерние элементы должны выстраиваться в колонку */
     justify-content: center;  /* Центрирование по горизонтали */
     align-items: center;      /* Центрирование по вертикали */
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 img {
